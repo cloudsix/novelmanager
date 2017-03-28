@@ -1,6 +1,9 @@
 package main
 
 import (
+	"os"
+	"strconv"
+
 	_ "github.com/novelmanager/routers"
 
 	"github.com/astaxie/beego"
@@ -25,6 +28,11 @@ func main() {
 	beego.SetStaticPath("/vendor.bundle.js.map", "static/vendor.bundle.js.map")
 
 	beego.SetStaticPath("/", "static/index.html")
+
+	port, err := strconv.Atoi(os.Getenv("PORT"))
+	if err == nil {
+		beego.BConfig.Listen.HTTPPort = port
+	}
 
 	beego.Run()
 }
