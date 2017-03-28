@@ -1,0 +1,47 @@
+{
+	"ImportPath": "github.com/novelmanager",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/astaxie/beego",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/config",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/grace",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/logs",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/toolbox",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/utils",
+			"Comment": "v1.7.2",
+			"Rev": "90999717dda6193c6f970eec52e289b0a9e74998"
+		}
+	]
+}
